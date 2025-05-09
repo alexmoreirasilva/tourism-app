@@ -1,0 +1,54 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Restaurantes",
+      "descricao": "Lugares para alimentação"
+    },
+    {
+      "id": 2,
+      "nome": "Hotéis",
+      "descricao": "Locais para hospedagem"
+    },
+    {
+      "id": 3,
+      "nome": "Parques",
+      "descricao": "Áreas de lazer ao ar livre"
+    },
+    {
+      "id": 4,
+      "nome": "Museus",
+      "descricao": "Espaços culturais e históricos"
+    },
+    {
+      "id": 5,
+      "nome": "Praias",
+      "descricao": "Locais para relaxar e aproveitar o mar"
+    },
+    {
+      "id": 6,
+      "nome": "Shopping Centers",
+      "descricao": "Centros comerciais para compras"
+    },
+    {
+      "id": 7,
+      "nome": "Teatros",
+      "descricao": "Espaços para apresentações artísticas"
+    },
+    {
+      "id": 8,
+      "nome": "Eventos",
+      "descricao": "Atividades e festivais locais"
+    },
+    {
+      "id": 9,
+      "nome": "Esportes",
+      "descricao": "Locais para prática de esportes e atividades físicas"
+    },
+    {
+      "id": 10,
+      "nome": "Vida Noturna",
+      "descricao": "Bares, baladas e entretenimento noturno"
+    }
+  ]
+}

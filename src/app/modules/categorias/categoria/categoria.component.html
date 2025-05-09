@@ -3,17 +3,21 @@
 
   <hr class="my-4">
 
-  <form id="categoriaForm">
+  <form id="categoriaForm" [formGroup]="camposForm" (ngSubmit)="salvar()">
     <div class="mb-4">
       <label for="nome" class="block text-gray-600 font-medium">Nome</label>
-      <input type="text" id="nome" name="nome" placeholder="Ex: Restaurantes, Praias, Shoppings" required class="w-full p-3 border border-gray-300 rounded shadow-sm focus:ring focus:ring-blue-400 outline-none">
-      <span class="text-red-500 text-sm">Campo obrigatório</span>
+      <input type="text" id="nome" name="nome" placeholder="Ex: Restaurantes, Praias, Shoppings" required formControlName="nome" class="w-full p-3 border border-gray-300 rounded shadow-sm focus:ring focus:ring-blue-400 outline-none">
+      @if(isCampoInvalido('nome')) {
+        <span class="text-red-500 text-sm">Campo obrigatório</span>
+      }
     </div>
 
     <div class="mb-4">
       <label for="descricao" class="block text-gray-600 font-medium">Descrição</label>
-      <textarea rows="4" id="descricao" name="descricao" placeholder="" required class="w-full p-3 border border-gray-300 rounded shadow-sm focus:ring focus:ring-blue-400 outline-none resize-none"></textarea>
-      <span class="text-red-500 text-sm">Campo obrigatório</span>
+      <textarea rows="4" id="descricao" name="descricao" placeholder="" required formControlName="descricao" class="w-full p-3 border border-gray-300 rounded shadow-sm focus:ring focus:ring-blue-400 outline-none resize-none"></textarea>
+      @if(isCampoInvalido('descricao')) {
+        <span class="text-red-500 text-sm">Campo obrigatório</span>
+      }
     </div>
 
     <button type="submit" class="w-full bg-blue-600 text-white font-semibold p-3 rounded shadow hover:bg-blue-700">Cadastrar Categoria</button>
