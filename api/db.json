@@ -50,5 +50,16 @@
       "nome": "Vida Noturna",
       "descricao": "Bares, baladas e entretenimento noturno"
     }
+  ],
+
+  "lugares": [
+    {
+      "id": "4655",
+      "nome": "Teste",
+      "categoria": "1",
+      "localizacao": "Teste",
+      "urlFoto": "https://br.freepik.com/fotos-gratis/interior-do-restaurante_1243337.htm#fromView=search&page=1&position=1&uuid=4fcb6d5d-f789-45d6-a7de-7a2c4d45f6e2&query=restaurant",
+      "avaliacao": "1"
+    }
   ]
 }
