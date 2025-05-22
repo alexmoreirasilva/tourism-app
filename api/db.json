@@ -49,79 +49,28 @@
       "id": "123a",
       "nome": "Vida Noturna",
       "descricao": "Bares, baladas e entretenimento noturno"
+    },
+    {
+      "id": "3dc2",
+      "nome": "Teste",
+      "descricao": "tefadfsdfasd"
     }
   ],
   "lugares": [
     {
-      "id": "4655",
-      "nome": "Teste",
-      "categoria": "1",
-      "localizacao": "Teste",
-      "urlFoto": "https://br.freepik.com/fotos-gratis/interior-do-restaurante_1243337.htm#fromView=search&page=1&position=1&uuid=4fcb6d5d-f789-45d6-a7de-7a2c4d45f6e2&query=restaurant",
-      "avaliacao": "1"
-    },
-    {
-      "id": "7b14",
-      "nome": "",
-      "categoria": "",
-      "localizacao": "",
-      "urlFoto": "",
-      "avaliacao": ""
-    },
-    {
-      "id": "bf76",
-      "nome": "",
-      "categoria": null,
-      "localizacao": null,
-      "urlFoto": null,
-      "avaliacao": null
-    },
-    {
-      "id": "c2d1",
-      "nome": null,
-      "categoria": null,
-      "localizacao": null,
-      "urlFoto": null,
-      "avaliacao": null
-    },
-    {
-      "id": "86f2",
-      "nome": null,
-      "categoria": null,
-      "localizacao": null,
-      "urlFoto": null,
-      "avaliacao": null
-    },
-    {
-      "id": "7286",
-      "nome": null,
-      "categoria": "",
-      "localizacao": null,
-      "urlFoto": null,
-      "avaliacao": null
-    },
-    {
-      "id": "7070",
-      "nome": null,
-      "categoria": null,
-      "localizacao": null,
-      "urlFoto": null,
-      "avaliacao": null
-    },
-    {
       "id": "cb9f",
       "nome": "Praia do Espelho",
-      "categoria": "5",
+      "categoria": "Praias",
       "localizacao": "Bahia",
-      "urlFoto": "https://br.freepik.com/fotos-gratis/fundo-vazio-do-mar-e-da-praia_1245892.htm#fromView=search&page=1&position=4&uuid=8f7abe8d-dda4-4d0b-b958-dadf3ea5c8a0&query=beach",
+      "urlFoto": "https://www.bahiahomes.com.br/content/uploads/2015/02/outeiro-das-brisas-bahia-brasil.jpg",
       "avaliacao": "3"
     },
     {
       "id": "a7e0",
       "nome": "Parque Ibirapuera",
-      "categoria": "3",
+      "categoria": "Parques",
       "localizacao": "São Paulo",
-      "urlFoto": "https://br.freepik.com/fotos-gratis/estrada-estreita-em-um-campo-gramado-cercado-por-arvores-verdes-com-o-sol-forte-ao-fundo_9852846.htm#fromView=search&page=1&position=1&uuid=559096d7-29b2-40b2-9240-9c352a796261&query=parque",
+      "urlFoto": "https://grupospimovel.s3.amazonaws.com/Imagens/Noticias/Sistema/mercado-imobiliario/Parque_Ibirapuera.jpg",
       "avaliacao": "2"
     }
   ]
