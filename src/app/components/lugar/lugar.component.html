@@ -7,10 +7,13 @@
     <div class="mb-4">
       <label for="nome" class="block text-gray-600 font-medium mb-2">Nome do Lugar</label>
       <input type="text" id="nome" name="nome" formControlName="nome" placeholder="Ex: Praia do Sol, Restaurante Estrela" class="w-full p-3 border border-gray-300 rounded shadow-sm focus:ring focus:ring-blue-400 outline-none">
+      @if(isCampoInvalido('nome')) {
+        <span class="text-red-500 text-sm">Campo obrigatório</span>
+      }
     </div>
 
     <div class="mb-4">
-      <label for="nome" class="block text-gray-600 font-medium mb-2">Categoria</label>
+      <label for="categoria" class="block text-gray-600 font-medium mb-2">Categoria</label>
       <select id="categoria" name="categoria" formControlName="categoria" class="bg-white w-full p-3 border border-gray-300 rounded shadow-sm focus:ring focus:ring-blue-400 outline-none">
         <option value="">Selecione uma categoria</option>
 
@@ -18,16 +21,28 @@
           <option [value]="categoria.id">{{ categoria.nome }}</option>
         }
       </select>
+
+      @if(isCampoInvalido('categoria')) {
+        <span class="text-red-500 text-sm">Campo obrigatório</span>
+      }
     </div>
 
     <div class="mb-4">
       <label for="localizacao" class="block text-gray-600 font-medium mb-2">Localização</label>
       <input type="text" id="localizacao" name="localizacao" formControlName="localizacao" placeholder="Ex: São Paulo" class="w-full p-3 border border-gray-300 rounded shadow-sm focus:ring focus:ring-blue-400 outline-none">
+
+      @if(isCampoInvalido('localizacao')) {
+        <span class="text-red-500 text-sm">Campo obrigatório</span>
+      }
     </div>
 
     <div class="mb-4">
       <label for="urlFoto" class="block text-gray-600 font-medium mb-2">Foto</label>
       <input type="text" id="urlFoto" name="urlFoto" formControlName="urlFoto" placeholder="Ex: https://exemplo.com/foto.jpg" class="w-full p-3 border border-gray-300 rounded shadow-sm focus:ring focus:ring-blue-400 outline-none">
+
+      @if(isCampoInvalido('urlFoto')) {
+        <span class="text-red-500 text-sm">Campo obrigatório</span>
+      }
     </div>
 
     <div class="mb-4">
@@ -40,6 +55,10 @@
         <option [value]="4">4 - Muito Bom</option>
         <option [value]="5">5 - Excelente</option>
       </select>
+
+      @if(isCampoInvalido('avaliacao')) {
+        <span class="text-red-500 text-sm">Campo obrigatório</span>
+      }
     </div>
 
     <button type="submit" class="w-full bg-blue-600 text-white font-semibold p-3 rounded shadow hover:bg-blue-700">Cadastrar Lugar</button>

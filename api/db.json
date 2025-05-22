@@ -1,47 +1,47 @@
 {
   "categorias": [
     {
-      "id": 1,
+      "id": "1",
       "nome": "Restaurantes",
       "descricao": "Lugares para alimentação"
     },
     {
-      "id": 2,
+      "id": "2",
       "nome": "Hotéis",
       "descricao": "Locais para hospedagem"
     },
     {
-      "id": 3,
+      "id": "3",
       "nome": "Parques",
       "descricao": "Áreas de lazer ao ar livre"
     },
     {
-      "id": 4,
+      "id": "4",
       "nome": "Museus",
       "descricao": "Espaços culturais e históricos"
     },
     {
-      "id": 5,
+      "id": "5",
       "nome": "Praias",
       "descricao": "Locais para relaxar e aproveitar o mar"
     },
     {
-      "id": 6,
+      "id": "6",
       "nome": "Shopping Centers",
       "descricao": "Centros comerciais para compras"
     },
     {
-      "id": 7,
+      "id": "7",
       "nome": "Teatros",
       "descricao": "Espaços para apresentações artísticas"
     },
     {
-      "id": 8,
+      "id": "8",
       "nome": "Eventos",
       "descricao": "Atividades e festivais locais"
     },
     {
-      "id": 9,
+      "id": "9",
       "nome": "Esportes",
       "descricao": "Locais para prática de esportes e atividades físicas"
     },
@@ -51,7 +51,6 @@
       "descricao": "Bares, baladas e entretenimento noturno"
     }
   ],
-
   "lugares": [
     {
       "id": "4655",
@@ -60,6 +59,70 @@
       "localizacao": "Teste",
       "urlFoto": "https://br.freepik.com/fotos-gratis/interior-do-restaurante_1243337.htm#fromView=search&page=1&position=1&uuid=4fcb6d5d-f789-45d6-a7de-7a2c4d45f6e2&query=restaurant",
       "avaliacao": "1"
+    },
+    {
+      "id": "7b14",
+      "nome": "",
+      "categoria": "",
+      "localizacao": "",
+      "urlFoto": "",
+      "avaliacao": ""
+    },
+    {
+      "id": "bf76",
+      "nome": "",
+      "categoria": null,
+      "localizacao": null,
+      "urlFoto": null,
+      "avaliacao": null
+    },
+    {
+      "id": "c2d1",
+      "nome": null,
+      "categoria": null,
+      "localizacao": null,
+      "urlFoto": null,
+      "avaliacao": null
+    },
+    {
+      "id": "86f2",
+      "nome": null,
+      "categoria": null,
+      "localizacao": null,
+      "urlFoto": null,
+      "avaliacao": null
+    },
+    {
+      "id": "7286",
+      "nome": null,
+      "categoria": "",
+      "localizacao": null,
+      "urlFoto": null,
+      "avaliacao": null
+    },
+    {
+      "id": "7070",
+      "nome": null,
+      "categoria": null,
+      "localizacao": null,
+      "urlFoto": null,
+      "avaliacao": null
+    },
+    {
+      "id": "cb9f",
+      "nome": "Praia do Espelho",
+      "categoria": "5",
+      "localizacao": "Bahia",
+      "urlFoto": "https://br.freepik.com/fotos-gratis/fundo-vazio-do-mar-e-da-praia_1245892.htm#fromView=search&page=1&position=4&uuid=8f7abe8d-dda4-4d0b-b958-dadf3ea5c8a0&query=beach",
+      "avaliacao": "3"
+    },
+    {
+      "id": "a7e0",
+      "nome": "Parque Ibirapuera",
+      "categoria": "3",
+      "localizacao": "São Paulo",
+      "urlFoto": "https://br.freepik.com/fotos-gratis/estrada-estreita-em-um-campo-gramado-cercado-por-arvores-verdes-com-o-sol-forte-ao-fundo_9852846.htm#fromView=search&page=1&position=1&uuid=559096d7-29b2-40b2-9240-9c352a796261&query=parque",
+      "avaliacao": "2"
     }
   ]
 }
