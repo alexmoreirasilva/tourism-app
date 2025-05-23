@@ -4,10 +4,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { provideHttpClient, withFetch } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { GaleriaComponent } from './components/galeria/galeria.component';
 
 @NgModule({
-  declarations: [ AppComponent, GaleriaComponent ],
+  declarations: [ AppComponent ],
   imports: [ BrowserModule, AppRoutingModule ],
   providers: [ provideHttpClient(withFetch()) ],
   bootstrap: [ AppComponent ]
